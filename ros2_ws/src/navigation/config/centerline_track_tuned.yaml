@@ -1,0 +1,295 @@
+frame_id: map
+map: /ws/map01/compitation.yaml
+confirmed_by_planner: true
+generated_at: '2026-06-10T16:53:47'
+generated_from_network: /ws/src/navigation/config/centerline_network.yaml
+route_id: auto_graph_lap
+route_node_ids:
+- start
+- n001
+- n002
+- n012
+- n004
+- n012
+- n005
+- n006
+- n007
+- n008
+- n009
+- n010
+- n013
+- n003
+- n013
+- n011
+- start
+main_path_node_ids:
+- start
+- n001
+- n002
+- n012
+- n005
+- n006
+- n007
+- n008
+- n009
+- n010
+- n013
+- n011
+- start
+task_node_ids:
+- n004
+- n003
+settings:
+  control_rate: 50.0
+  default_speed: 2.0
+  transition_speed: 1.125
+  task_speed: 0.3
+  final_approach_speed: 0.12
+  acceleration_limit: 2.4
+  deceleration_limit: 3.0
+  entry_buffer_distance: 0.55
+  entry_slowdown_distance: 0.16
+  stop_buffer_margin: 0.2
+  cross_track_gain: 1.6
+  yaw_gain: 2.0
+  max_lateral_correction: 0.22
+  max_angular_speed: 1.8
+  recovery_speed: 0.25
+  recovery_heading: 0.45
+  recovery_cte: 0.16
+  switch_tolerance: 0.08
+  finish_tolerance: 0.1
+  hold_yaw: -1.5708
+  pose_timeout: 0.3
+control_points:
+- x: 0.2696
+  y: 3.7155
+- x: 0.2751
+  y: 0.2557
+- x: 0.8039
+  y: 0.2557
+- x: 0.7738
+  y: 1.1542
+- x: 1.2596
+  y: 1.1713
+- x: 0.7738
+  y: 1.1542
+- x: 0.7738
+  y: 3.1617
+- x: 3.2542
+  y: 3.1875
+- x: 3.2542
+  y: 1.7689
+- x: 2.2139
+  y: 1.7689
+- x: 2.2139
+  y: 0.2858
+- x: 4.7245
+  y: 0.2858
+- x: 4.6944
+  y: 2.173
+- x: 4.1957
+  y: 2.1515
+- x: 4.6944
+  y: 2.173
+- x: 4.703
+  y: 3.6948
+- x: 0.2696
+  y: 3.7155
+segments:
+- id: s1
+  type: track
+  start:
+    x: 0.2696
+    y: 3.7155
+  end:
+    x: 0.2751
+    y: 0.2557
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5692
+  switch_tolerance: 0.08
+- id: s2
+  type: reverse_track
+  start:
+    x: 0.2751
+    y: 0.2557
+  end:
+    x: 0.8039
+    y: 0.2557
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: 3.1416
+  switch_tolerance: 0.08
+- id: s3
+  type: reverse_track
+  start:
+    x: 0.8039
+    y: 0.2557
+  end:
+    x: 0.7738
+    y: 1.1542
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5373
+  switch_tolerance: 0.08
+- id: s4
+  type: task_branch
+  start:
+    x: 0.7738
+    y: 1.1542
+  end:
+    x: 1.2596
+    y: 1.1713
+  speed: 0.3
+  approach_speed: 0.3
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+  recognition_stop: true
+  recognition_yaw: 0.0352
+- id: s5
+  type: task_branch
+  start:
+    x: 1.2596
+    y: 1.1713
+  end:
+    x: 0.7738
+    y: 1.1542
+  speed: 0.3
+  approach_speed: 0.3
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+- id: s6
+  type: reverse_track
+  start:
+    x: 0.7738
+    y: 1.1542
+  end:
+    x: 0.7738
+    y: 3.1617
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+- id: s7
+  type: reverse_track
+  start:
+    x: 0.7738
+    y: 3.1617
+  end:
+    x: 3.2542
+    y: 3.1875
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -3.1312
+  switch_tolerance: 0.08
+- id: s8
+  type: track
+  start:
+    x: 3.2542
+    y: 3.1875
+  end:
+    x: 3.2542
+    y: 1.7689
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+- id: s9
+  type: track
+  start:
+    x: 3.2542
+    y: 1.7689
+  end:
+    x: 2.2139
+    y: 1.7689
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: 3.1416
+  switch_tolerance: 0.08
+- id: s10
+  type: track
+  start:
+    x: 2.2139
+    y: 1.7689
+  end:
+    x: 2.2139
+    y: 0.2858
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+- id: s11
+  type: reverse_track
+  start:
+    x: 2.2139
+    y: 0.2858
+  end:
+    x: 4.7245
+    y: 0.2858
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: 3.1416
+  switch_tolerance: 0.08
+- id: s12
+  type: reverse_track
+  start:
+    x: 4.7245
+    y: 0.2858
+  end:
+    x: 4.6944
+    y: 2.173
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5548
+  switch_tolerance: 0.08
+- id: s13
+  type: task_branch
+  start:
+    x: 4.6944
+    y: 2.173
+  end:
+    x: 4.1957
+    y: 2.1515
+  speed: 0.3
+  approach_speed: 0.3
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+  recognition_stop: true
+  recognition_yaw: -3.0985
+- id: s14
+  type: task_branch
+  start:
+    x: 4.1957
+    y: 2.1515
+  end:
+    x: 4.6944
+    y: 2.173
+  speed: 0.3
+  approach_speed: 0.3
+  hold_yaw: -1.5708
+  switch_tolerance: 0.08
+- id: s15
+  type: reverse_track
+  start:
+    x: 4.6944
+    y: 2.173
+  end:
+    x: 4.703
+    y: 3.6948
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -1.5764
+  switch_tolerance: 0.08
+- id: s16
+  type: reverse_track
+  start:
+    x: 4.703
+    y: 3.6948
+  end:
+    x: 0.2696
+    y: 3.7155
+  speed: 2.0
+  approach_speed: 1.125
+  hold_yaw: -0.0047
+  switch_tolerance: 0.08

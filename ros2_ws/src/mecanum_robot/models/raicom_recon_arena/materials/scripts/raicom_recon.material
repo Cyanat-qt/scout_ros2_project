@@ -1,0 +1,179 @@
+material Raicom/White
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.05 0.05 0.05 1.0 8
+    }
+  }
+}
+
+material Raicom/Black
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0 1.0
+      diffuse 0.0 0.0 0.0 1.0
+      specular 0.02 0.02 0.02 1.0 8
+    }
+  }
+}
+
+material Raicom/DarkGray
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.18 0.18 0.18 1.0
+      diffuse 0.22 0.22 0.22 1.0
+      specular 0.04 0.04 0.04 1.0 8
+    }
+  }
+}
+
+material Raicom/Green
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.55 0.20 1.0
+      diffuse 0.0 0.75 0.25 1.0
+      specular 0.02 0.02 0.02 1.0 8
+    }
+  }
+}
+
+material Raicom/Red
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.75 0.0 0.0 1.0
+      diffuse 1.0 0.0 0.0 1.0
+      specular 0.02 0.02 0.02 1.0 8
+    }
+  }
+}
+
+material Raicom/ZoneBlue
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.20 0.38 0.90 1.0
+      diffuse 0.25 0.45 1.0 1.0
+      specular 0.02 0.02 0.02 1.0 8
+    }
+  }
+}
+
+material Raicom/Enemy1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture enemy_1.jpg
+      }
+    }
+  }
+}
+
+material Raicom/Enemy2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture enemy_2.jpg
+      }
+    }
+  }
+}
+
+material Raicom/Friend1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture friend_1.jpg
+      }
+    }
+  }
+}
+
+material Raicom/Friend2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture friend_2.jpg
+      }
+    }
+  }
+}
+
+material Raicom/Hostage1
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture hostage_1.jpg
+      }
+    }
+  }
+}
+
+material Raicom/Hostage2
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      texture_unit
+      {
+        texture hostage_2.jpg
+      }
+    }
+  }
+}

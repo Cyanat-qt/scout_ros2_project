@@ -1,0 +1,38 @@
+{
+  "zone_1": [
+    [
+      "hostage",
+      "hostage_1.jpg"
+    ],
+    [
+      "enemy",
+      "enemy_4.jpg"
+    ],
+    [
+      "friend",
+      "friend_4.jpg"
+    ],
+    [
+      "hostage",
+      "hostage_2.jpg"
+    ]
+  ],
+  "zone_2": [
+    [
+      "hostage",
+      "hostage_1.jpg"
+    ],
+    [
+      "friend",
+      "friend_5.jpg"
+    ],
+    [
+      "hostage",
+      "hostage_3.jpg"
+    ],
+    [
+      "enemy",
+      "enemy_2.jpg"
+    ]
+  ]
+}

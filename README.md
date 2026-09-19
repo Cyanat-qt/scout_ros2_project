@@ -543,3 +543,4 @@ docker exec -e ROS_DOMAIN_ID=42 raicom-sim bash -c \
 ---
 
 > **Next Steps:** Chassis conversion (Ackermann → Mecanum) → Competition track adaptation (waypoints / map) → Controller selection (DWB / MPPI) → Visual / mechanical modification → Git initialization
+

@@ -4,7 +4,7 @@
 
 ## 1. Project Overview
 
-![Gazebo仿真](images/gazebo.png)
+![Gazebo](images/gazebo.png)
 
 This project provides a simulation environment for the **RAICOM Intelligent Reconnaissance competition track**.
 
@@ -134,7 +134,7 @@ docker images | grep raicom-humble-x11
   * `scripts/keyboard_teleop.py` — Keyboard teleoperation
 
 ### 5.3 `slam`
-
+![slam](images/slam.png)
 * **Description:** SLAM mapping
 * **Role:** Online mapping using `slam_toolbox`
 * **Key contents:**

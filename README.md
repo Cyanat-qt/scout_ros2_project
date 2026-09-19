@@ -4,7 +4,7 @@
 
 ## 1. Project Overview
 
-
+![Gazebo仿真](images/gazebo.png)
 
 This project provides a simulation environment for the **RAICOM Intelligent Reconnaissance competition track**.
 

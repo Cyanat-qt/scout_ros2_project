@@ -4,6 +4,8 @@
 
 ## 1. Project Overview
 
+
+
 This project provides a simulation environment for the **RAICOM Intelligent Reconnaissance competition track**.
 
 The current project inherits a robot model that is nominally described as an omnidirectional chassis but is actually based on an **Ackermann steering chassis**. The planned modification is to convert it into a true **Mecanum omnidirectional chassis** to support navigation through a narrow 5 m × 4 m competition track with a minimum corridor width of 0.50 m.
